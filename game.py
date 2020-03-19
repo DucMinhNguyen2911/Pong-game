@@ -9,6 +9,8 @@ pygame.display.set_caption("Pong game")
 x = 900
 y = 600
 SIZE = (x,y)
+#set up background color
+#www.google.com/search?q=color+picker
 BG_COLOR = (80, 88, 102)
 
 canvas = pygame.display.set_mode(SIZE)
@@ -17,6 +19,7 @@ clock = pygame.time.Clock()
 
 paddle_image = pygame.image.load("assets/paddle.png")
 ball_image = pygame.image.load("assets/ball.png")
+
 x1 = 0
 y1 = (y - 120) / 2
 x2 = x - 30
